@@ -1,0 +1,37 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("cow.jpeg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 5px;
+}
+
+.w3-col.l5th {
+    width: 20%;
+  }
+  @media (max-width: 600px) {
+    .w3-col.s12 {
+      width: 100%;
+    }
+  }
+  @media (min-width: 601px) and (max-width: 992px) {
+    .w3-col.m6 {
+      width: 50%;
+    }
+  }
+  @media (min-width: 993px) {
+    .w3-col.l5th {
+      width: 20%;
+    }
+  }
